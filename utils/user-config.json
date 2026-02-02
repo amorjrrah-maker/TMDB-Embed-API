@@ -1,5 +1,5 @@
 {
-  "defaultProviders": [],
+  "defaultProviders": ["showbox", "vidzee", "vixsrc"],
   "configVersion": 1,
   "tmdbApiKeys": [],
   "enableShowboxProvider": true,
@@ -9,11 +9,11 @@
   "enableMp4hydraProvider": true,
   "enableVidzeeProvider": true,
   "enableVixsrcProvider": true,
-  "enableProxy": false,
+  "enableProxy": true,
   "disableCache": false,
   "enablePStreamApi": true,
   "disableUrlValidation": false,
   "disable4khdhubUrlValidation": false,
-  "excludeCodecsRaw": "{\"excludeDV\":false,\"excludeHDR\":false}",
+  "excludeCodecsRaw": "{\"excludeDV\":false, \"excludeHDR\":false}",
   "minQualitiesRaw": "all"
 }
